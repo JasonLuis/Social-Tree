@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+* {
+    margin: 0 auto;
+    font-family: Poppins;
+    background-color: var(--body-bg-color);
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.list_info {
+    width: 350px;
+    height: 100vh;
+}
+
+.list_info li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-items: center;
+}
+
+.list_info li:nth-child(1) {
+    display: block;
+
+}
+
+.list_info p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+    color: var(--purple);
+}
+
+.list_info li:nth-child(6) {
+    margin-top: 60px;
+}
+
+.button_link  {
+    width: 326px;
+    height: 49px;
+    border-radius: 5px;
+    border: 2px solid var(--purple);
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.button_link:hover {
+    border: 2px solid #BB99;
+    cursor: pointer;
+}
+
+.box_circle {
+    border: 1px solid var(--purple);
+    width: 213px;
+    height: 213px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.group_icon {
+    display: flex;
+    align-items: center;
+    width: 236px;
+}
+
+.box_circle img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
